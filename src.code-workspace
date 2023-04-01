@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "src",
+			"path": "../teste_backend_pokemon/src"
+		},
+		{
+			"name": "tests_dev_pokemon",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
