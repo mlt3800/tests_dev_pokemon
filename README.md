@@ -34,3 +34,47 @@ Após terminar o desafio, você pode solicitar um pull request para a branch mas
 Só! Mas se quiser fazer a diferença, tente implementar um pouco de TDD e utilizar docker para execução do projeto.
 
 Boa sorte! :)
+
+## Importação
+No workbench do sql importe o arquivo Pokemon-go.csv(demora um pouco)
+a estrutura pode ser igual a da table.sql
+
+
+## O que os endpoints fazem ?
+1 busca a tabela completa retornando todos os pokemons
+2 Busca pokemons por pagina offset(1)
+3 Busca os pokemons pelo nome
+4 Busca os pokemon por tipo
+5 Busca os pokemons por ambos os tipos.
+
+## Para rodar a API:
+https://github.com/mlt3800/tests_dev_pokemon/
+
+npm install -> Para as instalar as dependencias
+criar um arquivo .env com as informaçoes do seu banco de dados
+ex:
+ DB_HOST: ,
+    DB_USER: ,
+    DB_PASSWORD: ,
+    DB_DATABASE: ,
+  e usar o:
+  npm run dev -> Para o servidor
+  
+  ## Link da documentação:
+  [Postman](https://documenter.getpostman.com/view/22350515/2s93XzyiDn)
+  
+  ## Link do render:
+  [Render](https://pokemons-0pva.onrender.com)
+
+## 🛠️ As tecnologias usadas:
+* [nodeJS]
+* [express]
+* [dotenv]
+* [cors]
+* [knex]
+* [typscript]
+* [javaScript]
+* [mysql]
+
+
+
