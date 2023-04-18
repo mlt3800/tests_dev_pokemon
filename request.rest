@@ -30,5 +30,5 @@ Content-Type: application/json
 {
     "type1": "BUG", 
     "type2": "POISON",
-    "offset" : 2
+    "offset" : 1
 }
